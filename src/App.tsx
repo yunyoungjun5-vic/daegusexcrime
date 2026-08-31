@@ -1,7 +1,6 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
- * Last verified: 2026-08-30
  */
 
 import React, { useState, useEffect } from 'react';
@@ -53,7 +52,6 @@ import PartnerTeaser from './components/PartnerTeaser';
 import MediaAppearanceTeaser from './components/MediaAppearanceTeaser';
 import PartnersPage from './pages/PartnersPage';
 import MediaAppearancePage from './pages/MediaAppearancePage';
-import { PopupModal } from './components/PopupModal';
 
 // --- Types ---
 interface NavItem {
@@ -866,10 +864,6 @@ const Footer = () => (
             <div className="flex items-center gap-3 text-slate-300 text-[13px]">
               <PhoneCall className="w-4 h-4 text-slate-400 shrink-0" />
               <span className="font-black">{CONTACT_PHONE}</span>
-            </div>
-            <div className="text-slate-400 text-[12px] pt-2 space-y-1">
-              <p>사업자 등록번호 : 392-90-02174</p>
-              <p>대표자 : 윤 영 준</p>
             </div>
           </div>
           <div className="flex gap-4 relative z-10">
@@ -8114,60 +8108,1001 @@ const MEDIA_DATA = [
     source: "연합뉴스",
     date: "2026-04-02",
     category: "입법, 법률 개정 및 판결",
-    summary: "지적장애 여성을 성폭행한 사건에서 실형과 함께 성폭력 치료프로그램 이x��}{WW����5L�s=y�M�ǝ8��ݶ3w�z��
-PGHjI�Ҿ;2��`ˎ��;�W�lXM֬���?)�;��8��T�)IwOf���N�Tu�<��{�S��r�Q��~o�^�4V*��ݜUݫ�n֋;/�����X\:ت�WKF�Zjܝ��{���~ce���T_-��G���Ѹ�W/=������V�������R'>`�{���6kX[ˍ�_�]�w��Y��>��4�/7V�֭e��`�~s�zϾ�%�d-U�ϭGt��Ѹ�i=�uC'���^��6�]����1+� XXo<xR�^7�'��M|<���6p��#��~Àr�T�x��p�K���2W�&ik��m�~oɀ���{%��U��q
-+O���+;Q_�5��w�s[�@̻觘�~4\T��Y_��Z�W�<�OC�'��\�D(4==�{5����~�}�2�C�~}>�����hx�/���p�5���(��iZ�<x�S_X�2��e�[��-=����x}�rP�iX[�n�7_,�e?��^��UX�����jg��3�$���3q),+\����oe�vX9q�a��y�I!;��n�3a��X������YqE2Q��q8=�xO8"���ǳ��������]ã���4�TP�47Y����xX�_e\,�bh�#����
-C}��Q���u�T�?�2��"����1����B[ �s0��'��>I�8H�#^�*<4�R_�s)��V��Q{ڸ����K�������U��U+�.�A�Q���e��\�˝��:|+��]�o��;����
-���1�Q�z����ukan�Z�U��.�
-��^��"<��|��X|�sT�f���F�Z�O�x�9�Tr9�[0�r�pX}#$���\�Χ��Z�aM�'�ʟ�����9�;N������e���B8I�&�o��/d�"��`��d*9<�L��jk��KzO�E�i��[��}��`��=2W`o�2k�I��ʿv�t�^���v�����F���X���[��q�,�X��u�4\,⏠c���-ҊK]�˷P��4�*dZAU��ث�䠩����˚���d�W�����Z>�[7�d�zuJ/U���TA�A���^�zZ߸�vFg��P���\�8���!5C���UT ���0�й}����� �;�xj��&�z	>�D/ @xB�(լ���n�^{�c��Z�r�N��4Ln}m^�Ҽޠո���e�Yu�-V��\8�59�Vp��E{/f�U��W_���"����pp�#� s�@�{�	��/�;oT���l��5��y��X�G�8Pk��wO��O�TJ���"?����Ðt��i�GkA��`�@D���SP�M�F�?�H�a�V�A � ���+?��G�����/Ȃ�n�e�kى��hת�s������.�aЉ.t[�H�Il�%���*�P� YI�j7MΙ���0.���؃����!.J����~�b�����y���o�P-���e�^�%e������*�fkmQa�<���TX�^4�}^�пJ����S �]rQ������HR(Z���?V�k�F�� yv��Ѣ.����vm���,-���u�$����'��B�i8���Z�Tq�P�ȑ��)9^Բ�����2�M��L���f��(�q�r:1Bi�c�X$�ѩ�;g.�K���뽾�/��sѾ/~4���P����AU@������9�#���>��Tm4㚕�Nԋ��.�s�ښ������@���<���_���EY�#��ƴ~h<X4��� �k���}���(jӻ\�=fB�O�poȡ���=CD
-Z��
-���%�����%%�t����}����w�Wk�[Tn�UtZ-Ƀ�y\q��y�4���(�Wo��<�����r���ް�� j���so����/8� |��)lJ� �Fn+���������z�M2F��#7�=�C�b춹+�E��8�"QT���k��@�7��0HDUN��Cc�� ����Q-ab��<��a: 	뛚(r $Wr�.��-��i���\*
-��:��,�pw���0���b!��*�����f1�J�?��tU�X��� S��n��`�;K�����(IhrJ�B@����/�d��2޽�	�����),�G�14�)��4���(V~x��+� ���Ơ����ܖ7вo����P��m�o�Y���
-z=ke�g��h�>;w}y�r�ti�!|-�:mm���Z���� ����:��n�S�d������v\BW|@L�N�
-�O�ݭ�,{�������2.P{��C���T�HI�Kl�@����%
-�I`����}Z��\o�W���˧"� X,m���8����m�_��6@۷Qex^��1�~���o� H�0# M�`�n~e`�\��9��D��-�=x�c���6�a8AeZB��`t ��{אȼoP ���7u��V:���!,��g(]8�y�|!�A�P<��?���]�,�¤��{g �8��T��_�=�v���{��ϟ�O�z��H�[�������p8�=�.�ſ#���1j�ݩ���p"�0>�{�h�6A�� �C}{���	�1�G&�Z��������g��Zs{�l���`��>��@�yo��D�3���#E��y{�wA@�;(K�3���֙-L��#�ip��ObHs��)R?"�N��+����'�4�8�]�`��!:�w9k�<����(����q{e��󠂀,C��E�������t0غ�(��K�;w�Q͈���)v���������DH ���Q�/���`*�Ř1�GAGI����:� M�l����z�@V*b�Ą�:r�c�z�w��%�{y0~F8"{O��#ZY08�%Y����Ha�--�BVRp��Ul@����T�}�͇�+���B� �&m�l��p<���ď���Hxh0X�A��6�,U�A����iA��R���Z�߯E[���mb}Kb�%Bc�̷� 
-��������oVAH	6��B\��O�&�I�&� �Vz�	[�0Jh7bRh��Qs]J�qg�X|+�,R�UYu� Q-Bx�=�E1�� KA��1��<���;GW�ǁ0*�B��@��/{�e&6J�Qb`�Ah���
-���G�<��d���e.i��Ñƒ��"��8H�Z�?x.�qk�5�����}x���y��;����=s!�A���3AA��t���,�� :6V �4"���; �3�6Qe�+`�1���A!ZEL�p�� �Wh��}��[��Z r͟�B%�Xw��o��*m5R0u^g������u�P�3���F��q��vҪ��h��G�6e=-(VB��Ȣ��+#^�X�7�2N�%W���st(�HL����#�~��0e���vH��Ic��n	P1f��SūFv�"ov�����;e�O������넀)�d�Ut����,��ST�^���fr
-tf<����.��bj4m��(N��J%�d����cS��ˬoã��x��w2�>E)������!����K�E㯃
-�3 �*�L����n�W�H�A��M�Gq�!@��Dm�pL�݁��BՉ1R�p@bJ�Pr�)���5�Mg�7Q�E��� �4�
-[�u����$�.�)����9s��q9ek)W�\���n��V���#�A��Sr7���`��17��L'�̵/�6h�N�Q.�D�_�t�j�5f;�\M�ַ8��u�j �6���ՋWs��� �Y^��0-�����*8�;�#�ظ�%��<
-��&�JT�q뻹n#
-6���r���A+����Z*��{���N���)"E;�{bT$JDn>�����+d��+�6�Ԗ��	���2�T�~�%�G:(�������Q�VQy���n޽����xo��q�mQ�P��)��#�3��H$��D�V9������3�,��X�]�̨�!�wy~i����
-��h!�G^Kԥ���-Q�2pXh���T{�)�@�*�#�K������bH�k�\�Đ����k%�g��Ǯ���T=F�z	�nc�H ��eA���� `��� h����h$8"dC�
-�'����\��"��9x�Sډ$�������H�k�a8o-S����2"������_���#��Dr2���c�o%2��Tf�$�z�_Ν�?6�Ύ~v�x�\b���L䠹�S���S��a�'�F��rp��LҼ��_�����2�W/�p��h�����o�㧑�D��� �CeX20g�+,�(ݸ�#,�09��o-[_� :B�A1���o�q�뇷�G��#v��!�y)�������T�1��C�o��An~ţ�(�*�'�-QYź�F�ԛȺ����ը��E�5�N�� ;�$^���؞o[w�"�7WϰtK��-�!̘	��u��1�G�"�C�.�E�����ws�áv`�O� #�������h�D$�A�	Dm_��1����h���h�r8(*�{���l}��D���@ܚ�3:�����Yñ�<!��P�2����s��+Q5V���%)��nszc�%����D��*��t�@�<gu�^�4���	E	�1� B��x�+�����J����T�}���g��0"���F�Ѿp��x�_b�9�#�/߱j+�8�8���ςo��O�;(�W��^���U�rK���q�N��j��P���fCQ�+�"A����u�]��A���2d�@�����}����دW8A��G���ҖJ�d��#Y�C����b�@�(=��"fA�h���Ӊ��#�XEI��T� :��'+�	�^'��mplf�_��!~|�Ƽ�`Y�h���f'`���Q\�9�"����C���;������y�����G>�����~_<��\�e�&m��\�����`w�z�l}�����[��pAD����{�+�Ax��){>�S>�S�d��;�
-B���S�� ts�`n �PS�A�`x�(O�ѓQ�7(�O�D¨QT��Y�P_��R�ɫ�'ob�-���%_��.b��HL��5K�Hk�:iH�zu��W>���s�l+;bR����3vq��;�ȃQ����((�����/���9}��B�CG"����8��_���l_�T�O�����Tr�Eb��H82408t9<��zsɱ =�3U�ϱ���aq����:�?��]͎��J�#������<a��Dnhž%��5[��h���S��8����=2�dī׉�F�!D4�v��:��e����ho�&�G0��*�ieb�����K�ƀZ�=���m2�F{a���F��n�|"t-�#�/I����03m'˷�t��-�m�<��� ��D	��;�!�N�*бy �����}��E�+@�p欍yLZ!sZ# 
-p]���$�u݈V7�;=���N�<8Ya���'t�C���({I����Q���.�"�����<��/	�Tq¡��1.mN�Z2ЈU��u*���(u,�B*���T:I5�_��o.�mJ���l��� ���X�?�v�c{P8P#��!d����0��_֭'����Zm�N���)k��n7)�M֑֨�"Q� ��f	�U�����n_K!���7(���D����P�Xv\�
-H�n��$�<���=ud�)B1$L��|�j��D9��#%Ȧh�7����c�Fَ��|�J�C��<Is;���2^�K��mB�k��!J���ٲ歸��Œg���^�Mob�rc�����|�J%�fqˠ���%n�hG��E�uP{#���.�m�"
-� ��*4�O��;��uY�C� �D?yS�{y4��D��=X�^�ȺO��!vea��;X(	"�xB��� hLМ�h�8����bw	��t���Q�A!���e4�+�Z+��>��WN�����`��;۸Y��K�?-L��1���5� |�aqO�%P��}UM��i<JLC�p�T�S�b{:o�E�W�J]Q�/�yX�ʔ����V��Y��d�^m.$XNa��U�~���C�k�-�ďq=���_�f.�Ti]e@}����4���r����������f�O`�pSW�D{��"��`���f���bF�Q�#�=�X�-4��D��	W��Ţ�܂��1���Y�f{q=�E������U�t���+���������Tț��.���r��C��==�$�'K��1G��r���v;�z��)}��M�ū6��H���FB�X,o�P(��[9V��� ���\��cZ��u�"�����%]��E������գ=���RɢDlW��2��C�_�� �|X�H��)dlۃ�S�a2�� ��e!G�dי����V,�w՛�(���p,4�����ba��qܨW$M�H��hx8�S�� �=
-���$�I��#7��#v�"�la|x��]b����:M���k�;���1�s�׾d��g�%} ���)�b��]�Ա]�>.�8V�%��K۶��>��b��q$T�ص]r�5�|y<�� �3��W���[�P��k�Fb������H,<0�y"�=V�� nl�|Y�gԳ�ۈ(��4y;
-����O�C\[�)��Wv�爼�S�$٠}�w���o\�2 ����`���Ʌ&$r;������)&��fx�N��YUޚ�7ǈ9�׏K��(U�Ĵ}���?Y�{��!6�:�UP�V�9��џ�!�X��T�u�}qkΝ:K��}��}��(;��.�{ �	���`=�m ~��;R��9������`���u�F3l'�3�Ay|z���P�e�%��e�3qs9����R�Y6o&�Dz�l:5z�#�S�Q¯�&�#�����h�@��d�E蠠u�Lɷb�e{�K2=<]m�<]T�٩ᅫԒ{��o̜��;V�/�ce&���Z�N�.x
-�8��������طGρ4�T����*�E�8F�Z�U��/������{=ql4�D��MS;Ϭ��c���M�9�$J,m�b��G��G�VL���r�Y���Ŧ(���Jv4��i��Y��}��i��a�&΅R���D��xf�a��]n�	��	�6!yZ��5��b�h$
-{@ty#�/����14�An=��-eE���v,�aF~�S������U�Vx�		��*d$G++IXv�ĩh �+��	�	������QdAGxw�.L�����\5�h����ܘ[��Vm}k��"��۱���-9��~��gy��+?��7@x���fHϏ�0�\ź|�q���:�h�V��L�!�]�5�S]�\�ﯗ�ي��M���*5�tN�2l�O��^j�
-��}��<p�IU�A)Rt��ܤL�=��#AJ�4ظ��N���uf��Jhmp0�������0GVu�ha��1��!XUC�&C�vXyMGːsBK�����ͯ�QB`N�1�beWw>i��^Ț�C΄Ys� �yߋ�ڂl�~W�&qܯ0�$�?��j$�DbH����A?�Q����^.��6���<��Zʥc=@@�÷OHޑxJ^	fR�$�nk��:�Vz��VŐ�i`�cP��xRq�1�
-��m���Ю2�V�,_ J���Jي^�rh�}���R1�8��LM���MM���˛�t�*W�f���ds�C}���˱�4ڎ$d�۔|�����H�����x�l��W�lܑ�ܡ]'���mH;l��ĉsJhफ\A�L��!��G=�M�c�H'���c��Ӧu�e��f���(ۗO�dғ%��4Om��6��2^�$j�ΑmW4h��s��6^�ZkO���"�#�=ř�=u�E$����0�N0�UBLE����E#����a�m�/a&�0Y����+#SN�T�
-��A��j�����n�q{	�	N9aѼ80��9V�����l��<��<���b�$H��B��+�$�(��p`��E5�0#���uv�E$�&o%�9WCχ�Da,W��@��t�B����p�{��@'R�_U�(���g�Hk���r��`�]�㇝xWC�,���{�������8�H�&��]N�{=�#OGAd�LJɏ�
-B��/��3�H� �����yϖ����
-j������Zn�?J�Q_O$zD��[���K)�PjI3rMTP
-(�6x%J[���j��am`T����58�EysS��:1q{GH�*D�m�4�Ƒs�}�3���5�p�IP�]�/Z��hr���DI���-�oP{���_����K]�(�:� l�$��]�Q!f��s��3�ZV{�:�y͉<4[#w>v��I���5%@԰�#4�-i8U��$Wu>\֕�0��HX#lM�X���ۛJ��ST ��ib#���m\���䥶�8�h����n*B[�[�ߛ3��2���ܙ��9޵+7P��!��`�ʻ���y��zhJ�Fχɜ��O
-��i$��ӢCCC��؂j��j#<�	��k:B���"���])�)�x�������K��H^)\�I�.��T����ک����R�[xߌ��0Dzrm��M��(�\[��ICc�l�*�Һț"��"S���a��줙A$�:H�O~����L�h|h&S�S�щ��1ltv�o�,�ϗ�R颙�6
-f�W��'p�T��P��<�r��}���3������.8�������o��O�s@ p#io���2p�%ٙn���g%�M��mc����Q ?krt�_��i͵��� ��(��I6��$�	ɇg�9{��;�.�����;SEsW��?��Æ��?�{�TZ��/���7C�|ٝ�b��촙?�(��]���hz*i:�u_��U[����!Su�f�9\����D�1b�4=`��da�H��7�S���x�n�mcW�Y����'=Ώ	z��vcn7����Iث՛Ύ&����d.�����F�-a�|M�WQUP��K>�0j��"0]���\'\J����IL�#����N��s��+A~��]�i33^�@;���]�
-��ԁLf3ŉ�U����W{����N��f�S���\����8��6���a�3�.�'1��)g���k"x�����i�S���R���zqRQ;;z��N'
-ŏs�t�&=�;�v�3�;�~��������(���tk���K��=W�N�M!h3�4X��N�]�{oϧ���g4�.�D���	�c�O�z��V��K���fa�L�]�� ���6>O��`f>��-B/M�5���v)X��!�y�ȸI����xU�ve����Va��'�y��ݩ�m�~���Ygie��A�2I��kv����v�pU�j��y�̼:<������x������4�:I3�s)�]������?=�4t�'��D2;�S�4���R�BϨ�A��B15v�g�,N�f�2;�3&�����ɤQ�'2��у�xS�hi�\W��늰x�)����lC�P����\�̏�M����e=�)ZǛ$��$�N�rm<'z%-����'�òAZE�'C0��c��č	��\| ,?�/�[�J���=��N*�L�g�!�jT���*�����K@E�tw z?�a�Z���EW�m��z�J&S|X���H6�O����cP��A��AT
-<J*��X���	����(nO�����f���
-c�c�gͼ�t.e�r/O?,O�y&�'JE�xS�z���e�q{�dh"�d5�U9������ҩQm���U����l�����Im��z�M핂�L��!T�\"�7D����1@�� /n�u]��7踂��X݀'pb�鞱��۰H��*��AL'Rɤ�я[�|o�'d[��:�M�W���̌��8A�ә#d(���G4��?|j\��i-��di�t����b�!�NC������4���M���D�A���,���xh��1�l��^#��l9�Ú�����Ux�N1�Ӭ�<�l�V�m;�qRn�h/U���;ރ�}�� �qDu}P|+s0�1�Y�Z3�ħ*ۏ�4"yt�U��Vl�_���(�;��ƿ�OO�Ь�ip�z�R�^5�����T�����D���l�4��φg��i0|B��r��3��p��p��v�j�u�l�3���>8:�~�8�n�(���q��������ԚȢO��-2�}�\��;E~%����/�!�]K�Z΂�l���g���v�b"���;M)�Zv���D�q)|��M{j��e��G��Q�b:�q��at�p����ŋg���TƤ�t�:�Z��u���#'!�<�kZ��&�� 5����*M|���g��&�8�aVS�.1RȦ�@=��X����=��4�W�i�q/p��{=���<�Tģ�ɳ��������H�b}���J���������*�O�ֿ�����݈S�uK�VR�����M��ʥ1������T��d8&]�q��>��'¬�f255��J�mo�a"�Qb��S����2�,t���Ī*��x���?4�E����u@�+�UJ'�¬��Je��$҈Ƴ�Sū'���Ѱq'2�IX ׵��w�XLx�4,�v���g&��tDmO�����4�o�K\D�GȢG��[�j��Ni�1�s1>^�Ǐ".E"8�
-^��
-EmH8����x&0vm��5����c~�g$q�2B�^4��o_X�	�v���+[,z9B׶�t:�	%㥣41b��g�0vk��Z"�2P�L��D���0&���0�z*��f����|�a����d�9�#42Y�����d��Q'C	0X�6�g2ɹA�p�L�K��h���3j�ӏ\s�N��N�6^%�Xo@�%�X�
-�����xa"e���'L/g�`��&��6&�=�@�;���V�Y����#�\�<~Hll���Wg���*O�L�� �a�	�`H����ɮ���z�M�K'�>��-7"���o���[�{D��y����G�}�Z�&!��2��?���������O�0VUǬ�Ϊ i�Ĭ�t��oh�/� )f��� d�Ŗ!�D�_/Y��X^_�W�T���������|R\��؝���?��X6?�QK����u��Fzǅc9N�D�8vL�>igU�8bŵ��R|Џ&� ��J�Lc�c5�9�A�_>�J��Rn&��$��Y�z�H9J7�SL�)�"�Sťqb��A�)�vBܻ��ʺ����*������IࡩIӕ���
-��i�I���8lí�Ƀ�W�T��O�����o��񮀛��J%ĩ�>B kc�T�2U�=ss�-舶FC���8�=S�v���t�7�:U�A�#^�e��(hL��bװ_�Du�\Y�b>h;������nw�=��u|GQz��m۠BI~��%ͷ�{�`:�s����s�g�(ۗ�tB]��������;�\E�M|24��o)Dv�,�Y�ĴuĐ8ӕk�I���.M:�I�����^��W��"q�ª8�۽�њ۵����F5:S�N������4����-]
-�}������d�ėbA���w�4D��N3�H���~I?�O�5osbi��f�H�ŧ�j��Iq�������o�:�9�u5�]� ӛ3N�惏?����\�x�,��Qh�836f�;;���i����Ҙ|6���Ų�0u�Z�{����?��T��ID-+�p|Z"��YG�M�2==�a$��:{�]䥚��<^QBW{�q	F�ܡ�1�����b��8.�^�x%����q5%�4-�#s��*��)�V �t�!��
-�S�B�5A[>r�b�'����bўd���Pl`l�/�b�a�ⱱTq�8w��Ã�c��p�q��vƞm�:�u��׆�Y�T�u�D��0'	�� &�s		C4�e��+=�= �$�%��0��d�({%��7�l3��77��H:��:���1ē8O�_=y[]B�e��;t���ŕ
-��팇}�[�p��y�oP��.�}�W��3}�H=�	-����x�s�������6��~�ɉ�k"��_?Q����2P46s*�����A{�<��[���"��/����?ahHN""퇅3�R���Fo/�3P;���I�g�o|���[�b��F���}Ѕ*�/��a���.����v�����W6�N����Ҭ����ׂ�R��^$��f8��)ߙ˛=���U|��Bg��y����V�m<�zv��T�ݶ�1��BF�|�|��PnUo��v1B�W`��pZ�༖�P�RN4�S��bpg3cY��]�8�vΗ�G۴s��2y:]h\� A|z(Ѣ��zrX�2����E淤������]>E�c� �򽀂wN.�fF������Ƭ<ć�xD�F�|��2ד܅;A��l<",q�ʎHʕxwm�T����\��b��Z�;Ŋz�����K^?����ڒh(o��[_�fa�F�s��6��r�P�<���o�}d�f �@�M�z�ծ2��h_hB���Y��)�ݯ�aP�N>q��s����,�O`	R�D�i��IS�	xްn=����K����Dv��ܧ�3�GT�[UW�`�[t�8���l�R���t�l�5�-�tO�ߜ���vn�3Ŋ�]u��.��ϲ�Cys4Ҙ*L7�0�V5)�$�5(ZV�|O�D�����{Pz���,)� �2]K�hV&�_��>�d��Co�q��%�y����S5x*G5M���,\ܨw%G��PS�L;��H jh���Īn���6B�+�H�jG�s��j	�dc��i�����o��� ���#��EZ[��[~o[<�������=���יM=�;�U����h�"�����͋��������ё�o���T���z�"�촙��G�*�u�5�"ဩi�-�o���x��[#$^_�����`�G���tq��wB�]
-��_ڀB>l�.M��d��T�*�v���D[ �׏wx�Χ
-���4C;��e�8ʜϦ���������w��g�S�w�Ҵ ����w�fF���r��#��:,y~p�+^���R"���O�W�%���P�K�*�(���b�穤�u�n��"%���OIM��lg!?:<Cc *-ҧ�\ϥFS��ħB�L�~�3h�#��C��	���p�i�E�������*�*�	0�>m��Sr����'ʢ�st;�C��uP��u��x~ܦ�=q^ٴ����ז���aT
-ބ�sO9���9��JۂY:"�������.j�l�1T��a�Wu�,e�ٓ�/���zR��z���F�E���@2���ڼ�fkQ�v��;�k�����D��rM6_���T0�s����1`]l�J����!�n��cg�K�'ήh2)?����D�g20�x���k���Hr�I_z���`��%��05B��D�'�U-gFh���ݓ��8���e_t��ֵQ���b��\�X�K��p-� ����`�2` #��j<r[�AW���=�]i:��3��?.ma'�#WJ^S{^rO���F/��=� e�T�k�&5�9ڂ���'��Ǡ�YN5����$�=J>H?,�g]�9`"����ݽ�Q�O4��i�F�OA�'�X֓+"c*X࢟vo�s�{���뼽%t��j]��?.���*���\�"�j^y���3\�G�*��P2����ƍ�n�r<i��xs�����Ai�r��(I�p�AӖ��>�MO��+Y7*�s~�zY��V�[T�w^�+G������������1��v�t��uW��*19��CiJ�5�)��	ʛ����ѩ:s��N�>s�����6�ঝ���Z�F�P����m���ɻx���,�ࡾ��^8K�1<��,����E8��g+���s�R�w�o�7%vM���}�!L�������\� ���ծKkZ��TR�(�p�Gey�A	���Q�@[Y�ʿ�
-�wE����f�m�A1`��2���$����-t�@�gkγJ�x �g�faR�;Κۆ�]P����&�*�(�zO�ºU]��#�����(r�Ȗ�ѷ���g�.�1�'���h,68���/�*���3VG�N��2��y���B��m=~���X�%�͒�zM���줣Ө}>�k�yM�μ�*�n���E
-�I��Y���oN���`�?O���eg�@^t�;���;]4!2�������=�>jz~��O��ɎvC�,<������G6B�����۩x�w�����N�m��͎ ��^yP��� �<��!b�Q�܅Q�6�+t�����?/�L_;ޤ]@����+�e�UP\z/��Z�%�Z�J�ק-�~%�k�|T��2�ugS�s��J\�p��ǧ/~|�̥�'���t2ofD�Js+�2���\)f�g�9�MN`�C���{�*e�푚/v�
-{��*R��q�7M���i��+��=�Mh�7����?ov2����겎Bq�H�˶�眣<�{4�z�N������m��=Rm�{s�c�5�=ފ����P��֝��c��K[�ԒSz%˦�I���{�K�����w�ȗ���p�km-U	h�[�l���J��P�ڢz80[�r�Z�w���'hܟ��"���"�2�pd�/�������G@���o�a^�e�E#i�%��Ecpy#� |��a��Nٻ����u�b6����|pY��o�(��H���|:�����K�NӗF.Q��U3��$���!��#"]w��;^(�&�l�
-nC	H�-y0FP�t�4@��Ct��J�}LX�1�!p,E�=4
-]�x�,_��mj�#ϛ0��*�ǁ�3%?�!�x�4�͚z��"giZh�Ț��<��jc��E���C0�\�0��F��{���r�_��[��y3Q�Iio�"^x�s�t{P?�'��ޜ� ��q�q<?��x(h��1���R���j
-���,*7 � b-����)���48�M�f���N���N:� $M䕻1�@[��X[�ܙR�1��V�r���+���zE	��&��)&CT�y���:T�8������)߻S�d��s��8^K�^L�_�v�X��7�Ϳ�k�6�!n��)�{[�?'Ǆ�[	�23�:�?��Z����ѫ��2c�S�"�t�T�x[jeO�_'\������U��������i�9���N]=��g� �Iw�7<�-�i�~z�?��=�7�	��Zg�����R��t*�q��:Ɯ?�Ο}]�w��%*ʎME�2۞$>��4*����M�������	��l&|����b�����K劓�Tb�\67��0���*������   �� �{3'
+    summary: "지적장애 여성을 성폭행한 사건에서 실형과 함께 성폭력 치료프로그램 이수, 취업제한 명령이 병과된 판결을 전했다. 피해자의 장애 특성과 권력관계(취약성)가 범행의 중대성을 강화하는 요소로 평가될 가능성이 크며, 보호·재범방지명령의 실효적 관리가 관건이 된다.",
+    point: "피해자의 취약성을 악용한 범죄에 대한 엄중한 처벌과 함께, 실효적인 재범 방지 및 보호 명령 관리의 중요성을 보여줍니다.",
+    url: "https://www.yna.co.kr/view/AKR20260402095300064"
+  },
+  {
+    title: "(공식) 디지털 성범죄 AI 24시간 자동 탐지·분석·신고(삭제요청 자동화·딥페이크 탐지 등)",
+    source: "성평등가족부",
+    date: "2026-04-01",
+    category: "디지털 성범죄",
+    summary: "공식 발표는 디지털 성범죄물 탐지·신고·삭제요청의 자동화를 통해 대응 속도와 정확도를 높이고, 아동·청소년 온라인 성착취에 대한 선제 개입을 강화하겠다는 방향을 제시한다. 기술 기반 대응이 확대될수록 탐지 정확도(오탐·미탐), 삭제요청의 적법성, 피해자 지원(상담·법률지원)과의 연계가 정책 성패를 좌우하게 된다.",
+    point: "기술 기반의 선제적 대응 체계 강화와 함께 탐지 정확도 및 피해자 지원 연계의 중요성을 강조하는 정책 방향을 제시합니다.",
+    url: "https://www.mogef.go.kr/nw/enw/nw_enw_s001d.do?bbtSn=713381&mid=mda700"
+  },
+  {
+    title: "디지털성범죄물 AI로 24시간 탐지·신고…\"건당 처리시간 단축\"",
+    source: "연합뉴스",
+    date: "2026-04-01",
+    category: "디지털 성범죄",
+    summary: "성평등가족부가 AI 기반으로 디지털 성범죄 피해영상의 탐지→삭제요청까지 자동화하는 시스템을 도입했다고 보도했다(삭제요청·처리·이력 관리의 자동화, 처리시간 단축 등). 아동·청소년 성착취물·유인정보를 24시간 자동 수집해 신고·삭제요청까지 수행하는 “선제 대응 시스템”도 함께 추진돼, 사후 구제 중심에서 상시 모니터링·선제 차단으로 정책 축이 이동하고 있다.",
+    point: "AI 기술을 활용한 자동화 시스템 도입으로 디지털 성범죄 대응이 사후 구제에서 선제적 차단 중심으로 변화하고 있음을 보여줍니다.",
+    url: "https://www.yna.co.kr/view/AKR20260331165800530"
+  },
+  {
+    title: "약에 취해 살인·방화·난폭운전… 마약, 다른 사람 목숨까지 위협",
+    source: "조선일보",
+    date: "2026-03-31",
+    category: "사건대응",
+    summary: "마약 범죄가 폭력·사고뿐 아니라 ‘물뽕’ 등 약물을 이용한 성범죄(이른바 데이트 강간) 수단으로도 활용되는 실태를 조명했다. 성범죄와 약물 범죄가 결합할 경우 피해자의 기억 결손·증거 확보 난점이 커져 수사·입증 전략과 예방정책(의약품 관리, 유통·처방 통제)까지 연쇄적으로 영향을 받는다.",
+    point: "약물 이용 성범죄의 수사 및 입증 어려움을 지적하며, 관련 예방 정책과 수사 전략의 유기적 연계 필요성을 시사합니다.",
+    url: "https://www.chosun.com/national/court_law/2026/03/31/NA2DESY6MZH5LJH4KP25MTN76Q/"
+  },
+  {
+    title: "성폭력방지 및 피해자보호 등에 관한 법률 일부개정법률안(대안) (의안번호 2217875)",
+    source: "국민참여입법센터(국회 의안)",
+    date: "2026-03-30",
+    category: "입법, 법률 개정 및 판결",
+    summary: "성폭력피해자통합지원센터의 통칭인 ‘해바라기센터’ 명칭을 법률상 근거로 명확히 하고, 유사명칭 사용 금지 근거를 마련하는 내용이 포함된다. 더불어 센터 지정취소·업무정지 등 제재수단의 상한을 정비(업무정지 상한 6개월)해 행정제재의 비례성을 명문화하려는 취지로 읽힌다.",
+    point: "해바라기센터의 법적 근거 명확화와 행정제재의 비례성 확보를 통해 피해자 지원 체계의 안정성과 신뢰성을 높이려는 입법 취지를 담고 있습니다.",
+    url: "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2217875/detailRP"
+  },
+  {
+    title: "(법령개정) 성폭력피해상담소 상담원 교육훈련시설 지정 권한의 지방 이양(제23조)",
+    source: "법제처 국가법령정보센터(제정·개정이유)",
+    date: "2026-03-26",
+    category: "입법, 법률 개정 및 판결",
+    summary: "대통령령 개정 취지로, 종전에는 시·도가 교육훈련시설을 지정할 때에도 중앙부처 장관이 인정한 기관·단체 범위에 사실상 종속됐으나, 개정 후에는 시·도가 자체적으로 “인적·물적 자원을 갖춘 기관·단체”를 인정해 지정할 수 있도록 자율성이 확대됐다. 상담원 양성 인프라의 지역 맞춤형 확충을 도모하는 동시에, 지정 기준의 일관성·품질관리(편차) 문제가 후속 과제로 남는다.",
+    point: "교육훈련시설 지정 권한의 지방 이양으로 지역 맞춤형 인프라 확충이 기대되나, 서비스 품질의 일관성 유지가 향후 과제임을 시사합니다.",
+    url: "https://www.law.go.kr/LSW/lsRvsRsnListP.do%3Bjsessionid%3D7laRKi0DKIRB0JdH1JRCrw7i.LSW15?chrClsCd=010102&lsId=011319&lsRvsGubun=all"
+  },
+  {
+    title: "헌법재판소 결정 요지: 성폭력처벌법 제30조 제6항(영상녹화 진술 증거사용) 합헌(2023헌가20)",
+    source: "헌법재판소",
+    date: "2026-03-26",
+    category: "입법, 법률 개정 및 판결",
+    summary: "헌법재판소는 장애인복지법상 장애인 성폭력 피해자의 진술녹화 영상물을 증거로 사용할 수 있게 한 성폭력처벌법 규정에 대해 합헌 결정을 내렸다. 다수의견은 진술 신빙성 담보 장치(절차·요건)와 피해자 보호 필요성을 근거로 위헌성을 부정했으며, 반대의견은 반대신문권 제한이 방어권을 과도하게 제약할 수 있다는 점을 문제 삼았다.",
+    point: "장애인 성폭력 피해자 보호를 위한 영상 진술의 증거 능력 인정과 피고인의 방어권 보장 사이의 헌법적 판단 기준을 제시한 사례입니다.",
+    url: "https://www.ccourt.go.kr/site/kor/ex/bbs/View.do?bcIdx=4265114&cbIdx=1098"
+  },
+  {
+    title: "헌재, ‘장애인 성폭력 피해자 진술녹화물’ 증거 인정 “합헌\"",
+    source: "조선일보",
+    date: "2026-03-26",
+    category: "입법, 법률 개정 및 판결",
+    summary: "장애인 성폭력 피해자의 조사 진술을 영상으로 녹화한 자료를, 피해자가 법정에 출석하지 않더라도 일정 요건하에 증거로 사용할 수 있도록 한 규정이 합헌이라는 결정을 전했다. 피해자 보호(2차 피해 방지)와 피고인의 반대신문권·방어권 사이의 긴장이 핵심이며, 수사 초기 영상진술의 적법한 확보·절차 준수의 중요성이 커진다.",
+    point: "피해자 보호와 피고인의 방어권 사이의 균형을 고려한 헌재의 합헌 결정으로, 수사 초기 영상 진술 확보의 적법성 준수가 더욱 강조됩니다.",
+    url: "https://www.chosun.com/national/court_law/2026/03/26/T4U4NMAUSJEHTDJFXGES3L4B5E/"
+  },
+  {
+    title: "메타에 과징금 176억원… 아동·청소년 폭력·성범죄로부터 보호 의무 위반 제재",
+    source: "동아일보",
+    date: "2026-03-25",
+    category: "아청법 사건",
+    summary: "규제당국이 아동·청소년을 폭력·성범죄로부터 보호할 의무 위반을 문제 삼아 메타에 대규모 과징금을 부과했다는 보도다. 온라인 플랫폼의 신고·삭제 중심 “사후조치”만으로는 보호의무를 충족하기 어렵다는 논리와 연결되며, 플랫폼 사업자의 안전설계(duty of care) 범위를 둘러싼 규제 경쟁이 강화되는 신호로 해석된다.",
+    point: "온라인 플랫폼의 신고·삭제 중심 “사후조치”만으로는 보호의무를 충족하기 어렵다는 논리와 연결되며, 플랫폼 사업자의 안전설계(duty of care) 범위를 둘러싼 규제 경쟁이 강화되는 신호로 해석된다.",
+    url: "https://edu.donga.com/news/articleView.html?idxno=104847&utm_source=chatgpt.com"
+  },
+  {
+    title: "아동·청소년의 성보호에 관한 법률 일부개정법률안 (의안번호 2217704)",
+    source: "국민참여입법센터(국회 의안)",
+    date: "2026-03-24",
+    category: "입법, 법률 개정 및 판결",
+    summary: "디지털 플랫폼 기반 성범죄에 대응하기 위해 “중앙 통합체계”를 마련하고, 정보통신서비스 제공자가 범죄 정황을 인지할 경우 신고 의무를 부과하는 취지의 개정안을 담고 있다.",
+    point: "신고로 인한 민사책임을 제한하는 방향도 포함돼, 플랫폼의 적극적 신고 유인을 높이는 동시에 오·남용(과잉신고, 표현 위축) 방지 설계가 입법 쟁점이 될 수 있다.",
+    url: "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2217704/detailRP?yType=I"
+  },
+  {
+    title: "또래 여중생 집단 성폭행 불법촬영·유포 4명, 2심도 실형",
+    source: "연합뉴스",
+    date: "2026-03-24",
+    category: "아청법 사건",
+    summary: "또래 여중생에 대한 집단 성폭행, 불법촬영·유포가 결합된 사건에서 항소심이 실형을 유지한 것으로 보도됐다.",
+    point: "성폭력 자체의 중대성에 더해 촬영·유포로 피해가 반복·확산되는 디지털 특성이 양형에서 불리하게 작용하는 전형을 보여준다.",
+    url: "https://www.yna.co.kr/view/AKR20260324161400063"
+  },
+  {
+    title: "성폭력 피해자 법률상담등 지원기관 지정 고시 제정안 행정예고",
+    source: "국민참여입법센터(성평등가족부 공고)",
+    date: "2026-03-16",
+    category: "입법, 법률 개정 및 판결",
+    summary: "성폭력 피해자에게 법률상담·소송대리 지원을 제공할 “지원기관 지정”을 위한 고시 제정 행정예고로, 예고기간이 2026-03-16~2026-04-06로 제시됐다.",
+    point: "법률·시행령이 예정한 지원체계를 실제 ‘지정’으로 연결하는 하위 규범 정비로서, 피해자 접근성(어디서 상담·대리를 받을 수 있는지)을 좌우하는 실무적 파급이 크다.",
+    url: "https://opinion.lawmaking.go.kr/gcom/admpp/46376?announceType=TYPE6&blockStartPage=1&mappingAdmRulSeq=2000000325212&pageIndex=1&pageIndexSub=1&queryString=cptOfiOrgCd%3D1192000"
+  },
+  {
+    title: "여자 화장실서 상습 불법 촬영했는데…법원은 영장 기각",
+    source: "연합뉴스",
+    date: "2026-03-16",
+    category: "입법, 법률 개정 및 판결",
+    summary: "여자 화장실에서 반복적 불법촬영을 한 피의자가 체포됐으나 법원이 구속영장을 기각한 사건을 다뤘다.",
+    point: "디지털 성범죄에서 증거 인멸·재범 위험과 신체구속의 필요성(비례성) 판단이 어떻게 작동하는지 보여주는 사례로, 영장 단계에서의 사실관계·위험성 소명이 실무상 중요함을 시사한다.",
+    url: "https://www.yna.co.kr/view/AKR20260316122400061"
+  },
+  {
+    title: "성범죄자 신상 공개, 교육부 홈페이지에서도 본다",
+    source: "경향신문",
+    date: "2026-03-14",
+    category: "입법, 법률 개정 및 판결",
+    summary: "성범죄자 신상정보 공개·고지 체계를 교육 현장과 연계해 접근성을 높이려는 정책 흐름을 다룬 기사로 보도됐다.",
+    point: "아동·청소년 보호라는 공익과, 신상정보 공개가 가져올 낙인·사적 제재 위험 및 정보보호(2차 유출) 사이의 균형이 핵심 쟁점이다.",
+    url: "https://www.khan.co.kr/article/202603181425011"
+  },
+  {
+    title: "성추행범도 협박범도 “4심 받겠다” (재판소원 접수 급증)",
+    source: "조선일보",
+    date: "2026-03-14",
+    category: "입법, 법률 개정 및 판결",
+    summary: "‘재판소원’ 제도 도입 직후 정치인·일반인뿐 아니라 성추행 등 형사사건 당사자도 헌법적 구제를 시도하는 흐름을 전했다.",
+    point: "형사사건의 확정판결 이후에도 절차적 권리(재판청구권·적법절차 등)를 근거로 다툼이 제기될 수 있어, 남용 방지 장치와 실질적 권리구제 사이의 제도 설계가 논점으로 부상한다.",
+    url: "https://www.chosun.com/national/court_law/2026/03/14/R4GH3P6Q4FDJJOVNSMX6SUBJ54/"
+  },
+  {
+    title: "대법원 중요판결 요지: 송금메모가 통신매체이용음란죄의 ‘통신매체’에 해당",
+    source: "대법원(중요판결 요지 PDF)",
+    date: "2026-03-12",
+    category: "입법, 법률 개정 및 판결",
+    summary: "대법원은 계좌이체 ‘송금메모’란도 메시지 전달 기능을 수행하므로, 성폭력처벌법상 통신매체이용음란죄의 “통신매체” 개념에 포함될 수 있다는 취지로 판단했다.",
+    point: "통신수단의 확장(메신저·SNS뿐 아니라 금융이체 부가정보까지)을 범죄구성요건 해석에 반영했다는 점에서, 향후 유사한 “비전통적 전달수단” 사건의 기준점이 될 수 있다.",
+    url: "https://www.scourt.go.kr/sjudge/1773621019789_093019.pdf"
+  },
+  {
+    title: "미성년자 상대 성매매·성 착취물 제작 20대에 징역 7년 구형",
+    source: "연합뉴스",
+    date: "2026-03-12",
+    category: "아청법 사건",
+    summary: "검찰이 미성년자를 대상으로 성매매·성착취물 제작 등 혐의를 적용해 중형을 구형한 사건을 다뤘다.",
+    point: "미성년자 대상 성범죄는 동의 여부와 무관하게 중하게 처벌되는 영역이어서, 범행 방식(촬영·저장 등)과 재범위험 평가가 양형에 직접 반영된다는 점이 강조된다.",
+    url: "https://www.yna.co.kr/view/AKR20260312122500056"
+  },
+  {
+    title: "근무 중 성매매업소서 성 접대 받고 동료 단속도 무마… 경찰관 2명 징역형",
+    source: "연합뉴스",
+    date: "2026-03-11",
+    category: "사건대응",
+    summary: "현직 경찰관들이 근무 중 성매매업소에서 성접대를 받고, 동료 경찰관의 단속을 무마한 정황이 형사사건으로 이어져 징역형이 선고된 사례로 보도됐다.",
+    point: "공권력 내부 비위가 성범죄(성매매)와 결합될 때 수사 신뢰를 훼손하고 2차 피해·은폐 위험을 키운다는 점이 쟁점이다.",
+    url: "https://www.yna.co.kr/view/AKR20260311159000055"
+  },
+  {
+    title: "이커머스 업체 대표 남편, 직원 강제추행 혐의 인정…검찰 집행유예 구형",
+    source: "연합뉴스",
+    date: "2026-03-10",
+    category: "입법, 법률 개정 및 판결",
+    summary: "직장 내 위계나 관계를 배경으로 한 성범죄 이슈가 다시 주목된 사례입니다. 사건 발생 후 초기 대응과 사실관계 정리가 얼마나 중요한지 생각하게 합니다.",
+    point: "사건 이후 진술 정리와 조기 상담 개입의 중요성을 시사합니다. 법적 판단은 사건별로 달라질 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20260310114900004"
+  },
+  {
+    title: "부산 ‘돌려차기’ 사건 국가배상 확정…법무부 항소 포기",
+    source: "연합뉴스",
+    date: "2026-03-05",
+    category: "입법, 법률 개정 및 판결",
+    summary: "중대한 폭력·성범죄 사건 이후 국가 책임과 피해 회복 문제까지 함께 논의된 사례입니다. 사건이 남기는 사회적 파장과 제도적 대응의 중요성을 보여줍니다.",
+    point: "피해 회복과 재발 방지 체계가 함께 논의되어야 함을 시사합니다. 구체적 법률 평가는 사건별 검토가 필요합니다.",
+    url: "https://www.yna.co.kr/view/AKR20260305157300004"
+  },
+  {
+    title: "미성년자 대상 성매매·성착취물 제작 사건, 징역 5년 선고",
+    source: "연합뉴스",
+    date: "2026-03-04",
+    category: "아청법 사건",
+    summary: "아동·청소년 대상 범죄는 매우 엄중하게 다뤄지고 있으며, 제작과 유인, 착취 구조 전반이 함께 문제 되는 흐름을 보여줍니다.",
+    point: "왜곡된 인식 교정과 재범방지 교육의 필요성을 보여주는 사례입니다. 사건별 판단 기준은 다를 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20260304086800056"
+  },
+  {
+    title: "현직 검사, 전 연인 신체 몰래촬영 의혹…경찰 수사",
+    source: "동아일보",
+    date: "2026-02-27",
+    category: "디지털 성범죄",
+    summary: "불법촬영 문제는 직업이나 지위와 무관하게 발생할 수 있으며, 친밀한 관계 안에서도 중대한 침해가 될 수 있음을 보여줍니다.",
+    point: "디지털 성범죄 예방 교육과 경계 인식의 필요성을 시사합니다. 법적 평가는 수사와 재판 과정에서 달라질 수 있습니다.",
+    url: "https://www.donga.com/news/Society/article/all/20260227/133436259/2"
+  },
+  {
+    title: "딥페이크 삭제·차단 의무 법안, 반대 의견 대량…좌표 가능성",
+    source: "경향신문",
+    date: "2026-02-19",
+    category: "입법, 법률 개정 및 판결",
+    summary: "딥페이크 대응 법안과 관련해 온라인 여론 형성 방식까지 함께 논의된 사례입니다. 기술 환경 변화에 맞춘 예방과 대응 체계가 중요해지고 있습니다.",
+    point: "디지털 성범죄는 기술 이해와 예방 교육이 함께 가야 함을 보여줍니다. 제도 평가는 향후 변화 가능성이 있습니다.",
+    url: "https://www.khan.co.kr/article/202602190600011"
+  },
+  {
+    title: "대학원생 성폭행 혐의 전직 교수, 항소심 징역 5년",
+    source: "연합뉴스",
+    date: "2026-02-13",
+    category: "입법, 법률 개정 및 판결",
+    summary: "권력관계와 신뢰관계를 이용한 성폭력 문제의 심각성이 다시 확인된 사례입니다. 교육기관 내 관계 윤리와 책임이 중요하게 다뤄졌습니다.",
+    point: "위계 관계에서의 성인지 감수성과 경계 교육의 필요성을 시사합니다. 사건별 법적 판단은 구체적 사실에 따라 다릅니다.",
+    url: "https://www.yna.co.kr/view/AKR20260213077200053"
+  },
+  {
+    title: "교회 교사-제자 관계 이용 성범죄, 1심 징역 6년",
+    source: "연합뉴스",
+    date: "2026-02-12",
+    category: "아청법 사건",
+    summary: "신뢰관계와 보호자적 위치가 범죄에 악용될 때 피해가 더 깊어질 수 있음을 보여주는 사례입니다. 관계의 비대칭성을 이해하는 교육이 중요합니다.",
+    point: "관계 내 권한 차이와 성인지 교육의 필요성을 보여줍니다. 구체적 판단은 사건별로 달라질 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20260212077400061"
+  },
+  {
+    title: "AI 기반 디지털성범죄 모니터링·삭제지원 자동화 정책",
+    source: "대한민국 정책브리핑",
+    date: "2026-02-12",
+    category: "디지털 성범죄",
+    summary: "AI를 활용한 탐지·삭제 지원 정책이 확대되는 흐름을 소개한 자료입니다. 기술 기반 대응이 중요한 축으로 자리잡고 있음을 보여줍니다.",
+    point: "디지털 성범죄 대응은 예방 교육과 기술적 대응이 함께 가야 함을 시사합니다. 실제 적용 범위는 제도에 따라 달라질 수 있습니다.",
+    url: "https://www.korea.kr/news/policyNewsView.do?newsId=148959267"
+  },
+  {
+    title: "여성 신체 불법촬영한 전직 소방관, 2심 집행유예 감형",
+    source: "연합뉴스",
+    date: "2026-02-11",
+    category: "입법, 법률 개정 및 판결",
+    summary: "불법촬영 사건에서 양형 판단 요소가 어떻게 다뤄지는지 관심을 모은 사례입니다. 사건 이후 태도와 조치가 함께 검토되는 흐름을 생각하게 합니다.",
+    point: "심리상담 기록과 변화 과정의 객관화가 중요할 수 있음을 시사합니다. 법적 판단은 사건별로 다를 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20260211129400056"
+  },
+  {
+    title: "국립대 교수 상습 성추행 사건, 징역 2년 법정구속",
+    source: "동아일보",
+    date: "2026-02-11",
+    category: "입법, 법률 개정 및 판결",
+    summary: "반복성과 관계 내 권한 문제가 결합된 사건으로, 교육현장에서의 윤리와 책임이 다시 강조된 사례입니다.",
+    point: "반복 행동에 대한 자기점검과 조기 개입의 중요성을 시사합니다. 구체적 법률 평가는 개별 사건 검토가 필요합니다.",
+    url: "https://www.donga.com/news/Society/article/all/20260211/133343214/1"
+  },
+  {
+    title: "불법촬영물 유통 사이트 수사…시청자 처벌 쟁점",
+    source: "연합뉴스",
+    date: "2026-02-07",
+    category: "입법, 법률 개정 및 판결",
+    summary: "불법촬영물 유통 구조와 소비 행위의 책임 범위가 사회적으로 다시 논의된 사례입니다. 단순 시청이라 여겨도 위험성이 작지 않다는 점을 떠올리게 합니다.",
+    point: "디지털 콘텐츠 이용 습관에 대한 인식 점검이 필요함을 보여줍니다. 관련 판단은 사건 경위에 따라 달라질 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20260206126500061"
+  },
+  {
+    title: "디지털성범죄·젠더폭력 대응 강화(연간 정책)",
+    source: "대한민국 정책브리핑",
+    date: "2026-01-30",
+    category: "입법, 법률 개정 및 판결",
+    summary: "정부 차원의 연간 대응 방향을 통해 디지털 성범죄와 젠더폭력 예방 정책이 강화되는 흐름을 정리한 자료입니다.",
+    point: "예방 교육과 사회적 감수성 향상이 함께 필요하다는 점을 보여줍니다. 세부 제도는 계속 바뀔 수 있습니다.",
+    url: "https://www.korea.kr/news/policyNewsView.do?newsId=148958837"
+  },
+  {
+    title: "치과 엑스레이실 등 449회 불법촬영, 항소심 집행유예",
+    source: "연합뉴스",
+    date: "2026-01-26",
+    category: "입법, 법률 개정 및 판결",
+    summary: "반복된 불법촬영 사건에서 행위의 지속성과 양형 판단 요소가 함께 주목된 사례입니다. 행동 패턴의 누적성이 중요하게 보일 수 있음을 생각하게 합니다.",
+    point: "반복 행동에 대한 재범위험 점검과 구조적 개입의 중요성을 시사합니다. 법적 판단은 사건별로 달라질 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20260123113600065"
+  },
+  {
+    title: "어린이집 화장실 불법카메라 의혹…원장 남편 수사",
+    source: "MBC",
+    date: "2026-01-22",
+    category: "아청법 사건",
+    summary: "아동이 있는 공간에서의 불법촬영 의혹이 제기되며 사회적 불안이 커진 사례입니다. 보호 환경에서의 안전 관리가 중요함을 보여줍니다.",
+    point: "예방 교육과 공간 안전 점검의 필요성을 시사합니다. 구체적 사실관계는 수사 결과에 따라 달라질 수 있습니다.",
+    url: "https://imnews.imbc.com/replay/2026/nwtoday/article/6795367_37012.html"
+  },
+  {
+    title: "수면제 먹여 성폭행·촬영한 BJ·피해자 남친, 1심 실형",
+    source: "연합뉴스",
+    date: "2026-01-22",
+    category: "입법, 법률 개정 및 판결",
+    summary: "약물, 촬영, 관계 악용이 결합된 중대한 사건으로, 피해 통제와 왜곡된 인식의 문제가 함께 드러난 사례입니다.",
+    point: "왜곡된 관계 인식과 충동 통제 문제에 대한 심리적 개입 필요성을 시사합니다. 사건별 판단은 사실관계에 따라 달라집니다.",
+    url: "https://www.yna.co.kr/view/AKR20260122107700061"
+  },
+  {
+    title: "텔레그램 기반 성착취 ‘목사방’ 사건, 2심 첫 공판(1심 무기징역)",
+    source: "동아일보",
+    date: "2026-01-07",
+    category: "아청법 사건",
+    summary: "온라인 플랫폼을 매개로 한 조직적 성착취 범죄의 심각성이 계속 조명된 사례입니다. 익명성과 폐쇄성이 범죄를 강화할 수 있음을 보여줍니다.",
+    point: "디지털 환경에서의 왜곡된 인식 교정과 강한 재범방지 교육의 필요성을 시사합니다. 구체적 법적 평가는 사건별로 다릅니다.",
+    url: "https://www.donga.com/news/Society/article/all/20260107/133107710/1"
+  },
+  {
+    title: "장기간 여성 교인 대상 성폭력 의혹 전직 목사 구속",
+    source: "한겨레",
+    date: "2026-01-06",
+    category: "성인지 감수성",
+    summary: "종교적 권위와 신뢰가 악용된 의혹이 제기된 사례로, 보호와 돌봄의 위치에 있는 사람의 책임이 다시 강조됐습니다.",
+    point: "권위 관계 속 경계 교육과 자기점검의 중요성을 보여줍니다. 수사·재판 결과에 따라 평가는 달라질 수 있습니다.",
+    url: "https://www.hani.co.kr/arti/society/society_general/1238359.html"
+  },
+  {
+    title: "또래 여중생 집단 성폭행·불법촬영, 수년 후 실형 선고",
+    source: "연합뉴스",
+    date: "2025-12-22",
+    category: "아청법 사건",
+    summary: "청소년 집단 내 성폭력과 촬영 문제가 결합된 사건으로, 초기 행동의 심각성을 가볍게 여기면 안 된다는 점을 보여줍니다.",
+    point: "청소년 대상 성인지 교육과 디지털 윤리 교육의 필요성을 시사합니다. 사건별 평가는 구체적 경위에 따라 다릅니다.",
+    url: "https://www.yna.co.kr/view/AKR20251222111300063"
+  },
+  {
+    title: "교사 딥페이크 성착취물 제작·유포, 항소심 징역 3년",
+    source: "연합뉴스",
+    date: "2025-12-19",
+    category: "아청법 사건",
+    summary: "딥페이크 기술을 악용한 성착취 범죄가 교육현장과 연결되어 사회적 충격을 준 사례입니다. 기술 활용 윤리와 예방 교육의 중요성이 커지고 있습니다.",
+    point: "AI·딥페이크 관련 성인지 교육과 조기 개입의 필요성을 보여줍니다. 구체적 판단은 사건마다 다를 수 있습니다.",
+    url: "https://www.yna.co.kr/view/AKR20251219064251065"
+  },
+  {
+    title: "성인 화보 제작사 전 대표 성폭행·불법촬영, 징역 10년",
+    source: "동아일보",
+    date: "2025-12-19",
+    category: "입법, 법률 개정 및 판결",
+    summary: "촬영·제작 환경 안에서 동의와 권력 문제를 어떻게 봐야 하는지 다시 생각하게 한 사례입니다. 산업 현장에서도 경계와 책임이 핵심이라는 점이 드러납니다.",
+    point: "동의 개념과 관계 내 권력 인식에 대한 교육의 필요성을 시사합니다. 법적 평가는 개별 사실관계에 따라 달라집니다.",
+    url: "https://www.donga.com/news/Society/article/all/20251219/132999807/2"
+  },
+  {
+    title: "전직 국회의원 보좌관 성추행 사건, 대법원 징역 1년 확정",
+    source: "한겨레",
+    date: "2025-12-11",
+    category: "입법, 법률 개정 및 판결",
+    summary: "직장 내 권력관계에서 발생하는 성추행 사건이 최종심까지 이어진 사례입니다. 조직 내 성인지 감수성과 구조적 예방이 중요함을 보여줍니다.",
+    point: "직장 내 성인지 교육과 관계 경계 설정의 중요성을 시사합니다. 구체적 법적 판단은 사건별로 다릅니다.",
+    url: "https://www.hani.co.kr/arti/society/women/1234068.html"
+  }
+];
+
+const MediaArchive = () => {
+  const [filter, setFilter] = useState('전체');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [sortBy, setSortBy] = useState('최신순');
+
+  const categories = ['전체', '재범방지', '심리상담', '사건대응', '양형자료', '디지털 성범죄', '성인지 감수성', '입법, 법률 개정 및 판결', '아청법 사건'];
+
+  const filteredData = MEDIA_DATA
+    .filter(item => (filter === '전체' || item.category === filter))
+    .filter(item => (
+      item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.source.toLowerCase().includes(searchQuery.toLowerCase())
+    ))
+    .sort((a, b) => {
+      if (sortBy === '최신순') return new Date(b.date).getTime() - new Date(a.date).getTime();
+      if (sortBy === '카테고리순') return a.category.localeCompare(b.category);
+      return 0;
+    });
+
+  const categoryStats = categories.filter(c => c !== '전체').map(cat => ({
+    name: cat,
+    count: MEDIA_DATA.filter(item => item.category === cat).length
+  })).sort((a, b) => b.count - a.count);
+
+  const monthlyArchive = Array.from(new Set(MEDIA_DATA.map(item => item.date.substring(0, 7))))
+    .sort((a, b) => b.localeCompare(a));
+
+  const stats = {
+    total: MEDIA_DATA.length,
+    topCategory: categoryStats[0]?.name || "-",
+    lastUpdate: MEDIA_DATA.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0].date
+  };
+
+  return (
+    <div className="space-y-12">
+      {/* Stats Bar */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {[
+          { label: "총 기사 수", value: `${stats.total}건`, icon: FileText },
+          { label: "주요 카테고리", value: stats.topCategory, icon: BarChart3 },
+          { label: "최근 업데이트", value: stats.lastUpdate, icon: Calendar }
+        ].map((stat, i) => (
+          <div key={i} className="bg-white p-8 rounded-[32px] border border-slate-100 shadow-sm flex items-center justify-between group hover:shadow-md transition-all">
+            <div className="space-y-1">
+              <p className="text-sm font-bold text-slate-400 uppercase tracking-wider">{stat.label}</p>
+              <p className="text-2xl font-black text-slate-900">{stat.value}</p>
+            </div>
+            <div className="w-14 h-14 rounded-2xl bg-slate-50 text-slate-400 flex items-center justify-center group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors">
+              <stat.icon className="w-7 h-7" />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Additional Dashboard Section */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* Category Stats Graph */}
+        <div className="bg-white p-8 rounded-[40px] border border-slate-100 shadow-sm space-y-6">
+          <div className="flex items-center gap-3 text-indigo-600">
+            <PieChart className="w-6 h-6" />
+            <h4 className="font-bold">카테고리별 분포</h4>
+          </div>
+          <div className="space-y-3">
+            {categoryStats.slice(0, 4).map((stat, i) => (
+              <div key={i} className="space-y-1.5">
+                <div className="flex justify-between text-xs font-bold">
+                  <span className="text-slate-600">{stat.name}</span>
+                  <span className="text-indigo-600">{stat.count}건</span>
+                </div>
+                <div className="h-1.5 w-full bg-slate-50 rounded-full overflow-hidden">
+                  <div 
+                    className="h-full bg-indigo-500 rounded-full" 
+                    style={{ width: `${(stat.count / stats.total) * 100}%` }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Monthly Archive */}
+        <div className="bg-white p-8 rounded-[40px] border border-slate-100 shadow-sm space-y-6">
+          <div className="flex items-center gap-3 text-indigo-600">
+            <Clock className="w-6 h-6" />
+            <h4 className="font-bold">월별 아카이브</h4>
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            {monthlyArchive.map((month, i) => (
+              <div key={i} className="px-3 py-2 bg-slate-50 rounded-xl text-center">
+                <span className="text-xs font-black text-slate-400">{month.replace('-', '.')}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Filter & Search Area */}
+      <div className="bg-white p-6 lg:p-10 rounded-[40px] border border-slate-100 shadow-sm space-y-8">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div className="flex flex-wrap gap-2">
+            {categories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setFilter(cat)}
+                className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
+                  filter === cat 
+                    ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-100' 
+                    : 'bg-slate-50 text-slate-500 hover:bg-slate-100'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+          <div className="flex items-center gap-4">
+            <select 
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+              className="bg-slate-50 border-none rounded-2xl px-4 py-3 text-sm font-bold text-slate-600 focus:ring-2 focus:ring-indigo-500 outline-none"
+            >
+              <option value="최신순">최신순</option>
+              <option value="카테고리순">카테고리순</option>
+            </select>
+          </div>
+        </div>
+        <div className="relative">
+          <Search className="absolute left-5 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+          <input 
+            type="text"
+            placeholder="기사 제목, 요약, 언론사 검색..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full pl-14 pr-6 py-5 bg-slate-50 border-none rounded-3xl text-slate-900 placeholder:text-slate-400 focus:ring-2 focus:ring-indigo-500 outline-none font-medium"
+          />
+        </div>
+      </div>
+
+      {/* Main Dashboard (Article Cards) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {filteredData.map((item, idx) => (
+          <motion.div 
+            key={idx}
+            layout
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="bg-white rounded-[40px] border border-slate-100 shadow-sm overflow-hidden flex flex-col group hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+          >
+            <div className="p-8 lg:p-10 flex-grow space-y-6">
+              <div className="flex items-center justify-between">
+                <span className="px-4 py-1.5 bg-indigo-50 text-indigo-600 rounded-full text-[11px] font-black uppercase tracking-widest">
+                  {item.category}
+                </span>
+                <span className="text-xs font-bold text-slate-400 flex items-center gap-1.5">
+                  <Calendar className="w-3.5 h-3.5" />
+                  {item.date}
+                </span>
+              </div>
+              
+              <div className="space-y-3">
+                <p className="text-sm font-bold text-indigo-500">{item.source}</p>
+                <h3 className="text-xl lg:text-2xl font-black text-slate-900 leading-snug group-hover:text-indigo-600 transition-colors">
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    {item.title}
+                  </a>
+                </h3>
+              </div>
+
+              <p className="text-slate-600 leading-relaxed text-sm lg:text-base">
+                {item.summary}
+              </p>
+
+              <div className="p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                <div className="flex items-start gap-3">
+                  <ShieldCheck className="w-5 h-5 text-indigo-500 shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-wider mb-1">상담/대응 포인트</p>
+                    <p className="text-sm text-slate-700 font-medium leading-relaxed">
+                      {item.point}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="px-8 pb-8 lg:px-10 lg:pb-10">
+              <a 
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 bg-[#1565C0] text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-[#115599] transition-all group/btn shadow-lg shadow-blue-100"
+              >
+                기사 원문 보기
+                <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+              </a>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+
+      {filteredData.length === 0 && (
+        <div className="py-32 text-center space-y-4 bg-slate-50 rounded-[48px] border border-dashed border-slate-200">
+          <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto shadow-sm">
+            <Search className="w-8 h-8 text-slate-300" />
+          </div>
+          <p className="text-slate-400 font-bold">검색 결과가 없습니다.</p>
+        </div>
+      )}
+
+      {/* Footer Disclaimer */}
+      <footer className="bg-slate-50 rounded-[48px] p-10 lg:p-16 text-slate-900 space-y-8 border border-slate-100">
+        <div className="flex items-center gap-3">
+          <AlertCircle className="w-6 h-6 text-[#1565C0]" />
+          <h4 className="text-xl font-bold">자료 이용 시 유의사항</h4>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-slate-500 leading-relaxed">
+          <ul className="space-y-3">
+            <li className="flex gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-[#1565C0] mt-1.5 shrink-0" />
+              본 페이지는 관련 기사 제목과 링크, 그리고 자체 작성한 짧은 정보 요약을 정리한 자료입니다.
+            </li>
+            <li className="flex gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-[#1565C0] mt-1.5 shrink-0" />
+              기사 원문과 저작권은 각 언론사 및 저작권자에게 있습니다.
+            </li>
+          </ul>
+          <ul className="space-y-3">
+            <li className="flex gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-[#1565C0] mt-1.5 shrink-0" />
+              구체적인 법률 판단은 사건별로 다를 수 있으며, 필요 시 변호사 상담이 필요할 수 있습니다.
+            </li>
+            <li className="flex gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-[#1565C0] mt-1.5 shrink-0" />
+              심리상담은 사건 이후의 인식 변화, 재범방지 노력, 자기이해를 돕는 과정입니다.
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+const ArchivePage = ({ title, slug }: { title: string; slug: string }) => {
+  const [activeTest, setActiveTest] = useState<string | null>(null);
+  const [activePost, setActivePost] = useState<typeof COLUMN_POSTS[0] | null>(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeTest, activePost, slug]);
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="bg-white min-h-screen"
+    >
+      <div 
+        className={`relative py-12 lg:py-24 border-b border-slate-100 overflow-hidden ${slug === 'media' ? 'bg-cover bg-center' : 'bg-slate-50'}`}
+        style={slug === 'media' ? { backgroundImage: 'url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800)' } : {}}
+      >
+        {slug === 'media' && <div className="absolute inset-0 bg-white/60 backdrop-blur-[1px]" />}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="flex items-center gap-4 mb-4">
+            {(activeTest || activePost) && (
+              <button 
+                onClick={() => {
+                  setActiveTest(null);
+                  setActivePost(null);
+                }}
+                className={`p-2 rounded-full border transition-colors ${slug === 'media' ? 'bg-white border-slate-200 text-slate-600 hover:text-[#4F46E5]' : 'bg-white border-slate-200 text-slate-600 hover:text-[#4F46E5]'}`}
+              >
+                <ArrowLeft className="w-5 h-5" />
+              </button>
+            )}
+            <h1 className={`font-bold ${slug === 'media' ? 'text-3xl lg:text-6xl text-slate-900' : 'text-2xl lg:text-4xl text-slate-900'}`}>
+              {activeTest ? activeTest : activePost ? activePost.category : title}
+            </h1>
+          </div>
+          <p className={`text-lg ${slug === 'media' ? 'text-slate-600' : 'text-slate-500'}`}>
+            {activeTest 
+              ? "객관적인 자가진단을 통해 자신의 상태를 점검해보세요." 
+              : activePost
+              ? activePost.title
+              : slug === 'media'
+              ? (
+                <div className="space-y-4">
+                  <span className="block whitespace-pre-line">
+                    재범방지, 심리상담, 사건 대응, 성인지 교육과 관련된 주요 기사를 정리한 자료입니다.
+                  </span>
+                  <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold ${slug === 'media' ? 'bg-indigo-50 text-indigo-600 border border-indigo-100' : 'bg-indigo-50 text-indigo-600'}`}>
+                    <Info className="w-4 h-4" />
+                    기사 제목을 누르면 원문을 확인할 수 있습니다. 본 페이지는 기사 원문 재게시가 아닌 정보 정리 및 안내를 위한 자료입니다.
+                  </div>
+                </div>
+              )
+              : "대구 성범죄 예방과 교정을 위한 전문 지식과 사례를 공유합니다."
+            }
+          </p>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
+        {slug === 'media' && (
+          <MediaArchive />
+        )}
+
+        {slug === 'check' && !activeTest && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              { title: "성인지 감수성 자가 체크", desc: "나의 성인지 관점은 객관적인가요?", items: 20, id: 'gender' },
+              { title: "디지털 성범죄 위험도 체크", desc: "온라인 활동 중 위험 요소가 있나요?", items: 20, id: 'digital' },
+              { title: "충동 조절 능력 평가", desc: "특정 상황에서 나의 통제력은 어느 정도인가요?", items: 20, id: 'impulse' },
+              { title: "재범 위험성 간이 측정", desc: "전문 도구를 활용한 간이 위험도 체크", items: 20, id: 'recidivism' }
+            ].map((item, idx) => (
+              <div key={idx} className="p-10 rounded-[32px] border border-slate-100 bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all group">
+                <div className="flex justify-between items-start mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-[#4F46E5] flex items-center justify-center group-hover:bg-[#4F46E5] group-hover:text-white transition-colors">
+                    <ClipboardCheck className="w-6 h-6" />
+                  </div>
+                  <span className="text-xs font-bold text-slate-400 bg-slate-50 px-3 py-1 rounded-full">{item.items} 문항</span>
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">{item.title}</h3>
+                <p className="text-slate-500 text-sm mb-8">{item.desc}</p>
+                <button 
+                  onClick={() => (item.id === 'gender' || item.id === 'digital' || item.id === 'impulse' || item.id === 'recidivism') && setActiveTest(item.title)}
+                  className={`w-full py-4 font-bold rounded-2xl transition-colors ${
+                    (item.id === 'gender' || item.id === 'digital' || item.id === 'impulse' || item.id === 'recidivism')
+                      ? 'bg-indigo-600 text-white hover:bg-indigo-700' 
+                      : 'bg-slate-100 text-slate-400 cursor-not-allowed'
+                  }`}
+                >
+                  {(item.id === 'gender' || item.id === 'digital' || item.id === 'impulse' || item.id === 'recidivism') ? '테스트 시작하기' : '준비 중입니다'}
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {slug === 'check' && activeTest === "성인지 감수성 자가 체크" && (
+          <GenderSensitivityTest />
+        )}
+
+        {slug === 'check' && activeTest === "디지털 성범죄 위험도 체크" && (
+          <DigitalRiskTest />
+        )}
+
+        {slug === 'check' && activeTest === "충동 조절 능력 평가" && (
+          <ImpulseControlTest />
+        )}
+
+        {slug === 'check' && activeTest === "재범 위험성 간이 측정" && (
+          <RecidivismRiskTest />
+        )}
+
+        {slug === 'column' && !activePost && (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          {COLUMN_POSTS.map((post, idx) => (
+            <div 
+              key={idx} 
+              className="group cursor-pointer"
+              onClick={() => post.content && setActivePost(post)}
+            >
+              <div className="aspect-video rounded-3xl bg-slate-100 mb-6 overflow-hidden relative">
+                <img 
+                  src={post.image || `https://picsum.photos/seed/${idx + 10}/800/450`} 
+                  alt="Column" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  referrerPolicy="no-referrer" 
+                />
+                <div className="absolute top-4 left-4 px-3 py-1 bg-white/90 backdrop-blur rounded-full text-[10px] font-bold text-slate-900 uppercase tracking-wider">
+                  {post.category}
+                </div>
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-xl font-bold text-slate-900 group-hover:text-[#4F46E5] transition-colors leading-snug">
+                  {post.title}
+                </h3>
+                {post.content && (
+                  <div className="flex items-center gap-2 text-[#4F46E5] font-bold text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                    자세히 보기 <ArrowRight className="w-4 h-4" />
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+        )}
+
+        {slug === 'column' && activePost && (
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="max-w-3xl mx-auto"
+          >
+            <div className="mb-12">
+              <div className="flex items-center gap-3 mb-6">
+                <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-xs font-bold uppercase tracking-wider">
+                  {activePost.category}
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-4">
+                {activePost.title}
+              </h2>
+              {activePost.subtitle && (
+                <p className="text-2xl text-slate-500 font-medium italic">
+                  “{activePost.subtitle}”
+                </p>
+              )}
+            </div>
+
+            <div className="aspect-video rounded-[40px] overflow-hidden mb-16 shadow-2xl">
+              <img 
+                src={activePost.image} 
+                alt="Post Hero" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+
+            <div className="space-y-12">
+              {activePost.content?.map((block, idx) => (
+                <div key={idx}>
+                  {block.type === 'header' ? (
+                    <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                      <div className="w-1.5 h-8 bg-indigo-500 rounded-full" />
+                      {block.value}
+                    </h3>
+                  ) : (
+                    <p className="text-lg text-slate-600 leading-relaxed whitespace-pre-line">
+                      {block.value}
+                    </p>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-24 pt-12 border-t border-slate-100 flex flex-col items-center text-center">
+              <div className="w-16 h-16 rounded-full bg-indigo-50 flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-indigo-500" />
+              </div>
+              <h4 className="text-xl font-bold text-slate-900 mb-4">변화는 혼자서 어렵지만, 함께라면 가능합니다.</h4>
+              <p className="text-slate-500 mb-10 max-w-lg">
+                우리 센터는 비난이 아닌 분석으로 접근합니다. <br />
+                막연한 후회가 아니라 구체적인 변화 전략을 세우는 공간입니다.
+              </p>
+              <a 
+                href={NAVER_PLACE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-12 py-5 bg-[#1565C0] text-white text-center font-black rounded-2xl hover:bg-[#115599] transition-all shadow-xl shadow-blue-100 active:scale-95"
+              >
+                전문가와 상담 시작하기
+              </a>
+            </div>
+          </motion.div>
+        )}
+
+      {slug !== 'check' && slug !== 'column' && (
+        <div className="py-20 text-center text-slate-400">
+        </div>
+      )}
+    </div>
+  </motion.div>
+  );
+};
+
+const ApplicationPage = () => {
+  useEffect(() => {
+    window.location.href = NAVER_PLACE_URL;
+  }, []);
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="bg-slate-50 min-h-screen flex items-center justify-center py-24"
+    >
+      <div className="text-center">
+        <div className="w-16 h-16 bg-indigo-100 text-[#4F46E5] rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
+          <Calendar className="w-8 h-8" />
+        </div>
+        <h1 className="text-2xl font-bold text-slate-900 mb-2">네이버 예약으로 이동 중입니다</h1>
+        <p className="text-slate-500 mb-8">잠시만 기다려 주세요...</p>
+        <a 
+          href={NAVER_PLACE_URL}
+          className="px-8 py-4 bg-[#4F46E5] text-white font-bold rounded-2xl hover:bg-[#4338ca] transition-all"
+        >
+          이동하지 않는다면 여기를 클릭하세요
+        </a>
+      </div>
+    </motion.div>
+  );
+};
+
+const Home = () => (
+  <motion.div 
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+  >
+    <Hero />
+    <HomeIntro />
+    <CoreServices />
+    <HomeExperts />
+    <PartnerTeaser />
+    <MediaAppearanceTeaser />
+    <LegalSection />
+    <ProcessSection />
+    
+    {/* Case Types Quick Grid */}
+    <section className="py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">사건 유형별 전문 대응</h2>
+          <p className="text-slate-500">각 사건의 특수성을 고려한 맞춤형 심리 개입 프로그램을 제공합니다.</p>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {NAV_STRUCTURE[2].children?.map((child, idx) => (
+            <Link 
+              key={idx} 
+              to={child.href}
+              className="p-6 rounded-2xl border border-slate-100 bg-slate-50 hover:bg-white hover:shadow-lg transition-all text-center group relative z-10 cursor-pointer"
+            >
+              <span className="text-slate-900 font-bold group-hover:text-[#4F46E5]">{child.title}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  </motion.div>
+);
+
+const PlaceholderPage = ({ title }: { title: string }) => (
+  <motion.div 
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center"
+  >
+    <h1 className="text-4xl font-bold text-slate-900 mb-6">{title}</h1>
+    <p className="text-xl text-slate-500 mb-12">이 페이지는 현재 준비 중입니다. 상세 기획안에 따라 곧 업데이트될 예정입니다.</p>
+    <Link to="/" className="inline-flex items-center gap-2 text-[#4F46E5] font-bold hover:underline">
+      <ArrowLeft className="w-5 h-5" />
+      홈으로 돌아가기
+    </Link>
+  </motion.div>
+);
+
+// --- Main App ---
+
+export default function App() {
+  return (
+    <Router>
+      <ScrollToTop />
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/partners" element={<PartnersPage />} />
+            <Route path="/media/appearance" element={<MediaAppearancePage />} />
+            {/* About Routes */}
+            {NAV_STRUCTURE[0].children?.filter(c => c.href !== '/partners' && c.href !== '/media/appearance').map(child => (
+              <React.Fragment key={child.href}>
+                <Route 
+                  path={child.href} 
+                  element={<AboutPage title={child.title} slug={child.href.split('/').pop() || ''} />} 
+                />
+              </React.Fragment>
+            ))}
+
+            {/* Treatment Routes */}
+            {NAV_STRUCTURE[1].children?.map(child => (
+              <React.Fragment key={child.href}>
+                <Route 
+                  path={child.href} 
+                  element={<TreatmentPage title={child.title} slug={child.href.split('/').pop() || ''} />} 
+                />
+              </React.Fragment>
+            ))}
+
+            {/* Case Routes */}
+            {NAV_STRUCTURE[2].children?.map(child => (
+              <React.Fragment key={child.href}>
+                <Route 
+                  path={child.href} 
+                  element={<CasePage title={child.title} slug={child.href.split('/').pop() || ''} />} 
+                />
+              </React.Fragment>
+            ))}
+
+            {/* Legal Routes */}
+            <Route path="/legal/info" element={<LegalPage />} />
+            <Route path="/legal/assessment" element={<LegalAssessmentPage />} />
+            <Route path="/legal/coaching" element={<CoachingPage />} />
+            <Route path="/legal/collaboration" element={<CollaborationPage />} />
+            {NAV_STRUCTURE[3].children?.filter(c => c.href !== '/legal/info' && c.href !== '/legal/assessment' && c.href !== '/legal/coaching' && c.href !== '/legal/collaboration').map(child => (
+              <React.Fragment key={child.href}>
+                <Route 
+                  path={child.href} 
+                  element={child.href.includes('/education/') ? <EducationPage title={child.title} slug={child.href.split('/').pop() || ''} /> : <PlaceholderPage title={child.title} />} 
+                />
+              </React.Fragment>
+            ))}
+
+            {/* Guide Routes */}
+            <Route path="/guide/faq" element={<GuidePage title="자주 묻는 질문" slug="faq" />} />
+            <Route path="/guide/process" element={<CounselingProcessPage />} />
+            <Route path="/guide/privacy" element={<ConfidentialityPage />} />
+            {NAV_STRUCTURE[4].children?.filter(c => c.href !== '/guide/faq' && c.href !== '/guide/process' && c.href !== '/guide/privacy').map(child => (
+              <React.Fragment key={child.href}>
+                <Route 
+                  path={child.href} 
+                  element={<GuidePage title={child.title} slug={child.href.split('/').pop() || ''} />} 
+                />
+              </React.Fragment>
+            ))}
+            
+            {/* Archive Routes */}
+            {NAV_STRUCTURE[5].children?.map(child => (
+              <React.Fragment key={child.href}>
+                <Route 
+                  path={child.href} 
+                  element={<ArchivePage title={child.title} slug={child.href.split('/').pop() || ''} />} 
+                />
+              </React.Fragment>
+            ))}
+
+            {/* Application Route */}
+            <Route path="/apply" element={<ApplicationPage />} />
+            
+            {/* Other Routes */}
+            {NAV_STRUCTURE.filter((_, i) => i !== 0 && i !== 1 && i !== 2 && i !== 3 && i !== 4 && i !== 5).map(item => (
+              <React.Fragment key={item.title}>
+                {item.children?.map(child => (
+                  <React.Fragment key={child.href}>
+                    <Route 
+                      path={child.href} 
+                      element={<PlaceholderPage title={child.title} />} 
+                    />
+                  </React.Fragment>
+                ))}
+              </React.Fragment>
+            ))}
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
