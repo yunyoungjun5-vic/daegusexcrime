@@ -50,6 +50,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import PartnerTeaser from './components/PartnerTeaser';
 import MediaAppearanceTeaser from './components/MediaAppearanceTeaser';
+import LandingPopup from './components/LandingPopup';
 import PartnersPage from './pages/PartnersPage';
 import MediaAppearancePage from './pages/MediaAppearancePage';
 
@@ -9009,6 +9010,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
+      <LandingPopup reservationUrl={NAVER_PLACE_URL} />
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-grow">
