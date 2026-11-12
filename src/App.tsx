@@ -856,8 +856,12 @@ const Footer = () => (
             </p>
           </div>
 
-          {/* 주소 및 연락처 (아이콘과 수평 정렬) */}
+          {/* 센터 정보: 대표자, 주소 및 연락처 */}
           <div className="space-y-3 mb-8">
+            <div className="flex items-center gap-3 text-slate-300 text-[13px]">
+              <Contact2 className="w-4 h-4 text-slate-400 shrink-0" />
+              <span className="font-bold text-slate-300">대표자 : 윤영준</span>
+            </div>
             <div className="flex items-start gap-3 text-slate-300 text-[13px]">
               <MapPin className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" />
               <span className="leading-relaxed font-bold text-slate-300">대구광역시 달서구 용산큰못2길 25 4층 (GS용산 별밤점 건물 4층)</span>
