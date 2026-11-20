@@ -2650,31 +2650,31 @@ const CasePage = ({ title, slug }: { title: string; slug: string }) => {
     className="bg-white min-h-screen"
   >
     {/* Page Header */}
-    <div className="relative bg-slate-50 py-16 lg:py-32 border-b border-slate-200 overflow-hidden">
+    <div className="relative bg-slate-950 py-16 lg:py-32 border-b border-slate-800 overflow-hidden">
       {heroBg && (
         <div className="absolute inset-0 pointer-events-none">
           <img 
             src={heroBg} 
             alt={`${title} 배경`} 
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover object-center opacity-65"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/75 to-slate-50/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/55 to-slate-950/35" />
         </div>
       )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <Link to="/" className="inline-flex items-center gap-2 text-indigo-600 font-bold mb-8 hover:text-indigo-700 transition-colors">
+        <Link to="/" className="inline-flex items-center gap-2 text-indigo-300 font-bold mb-8 hover:text-indigo-200 transition-colors drop-shadow-sm">
           <ArrowLeft className="w-4 h-4" />
           사건유형 전체보기
         </Link>
-        <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-6">{title} 전문 대응</h1>
+        <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-white mb-6 drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">{title} 전문 대응</h1>
         <div className="max-w-2xl leading-relaxed">
           {slug === 'workplace' ? (
-            <p className="text-2xl lg:text-3xl text-slate-600 font-medium">
+            <p className="text-2xl lg:text-3xl text-slate-100 font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
               (직장 내 성희롱 · 교수-학생 관계 · 동료 간 사건 · 교내 성비위 등)
             </p>
           ) : (
-            <p className="text-xl text-slate-500">
+            <p className="text-xl text-slate-100 font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
               {title} 사건은 법적 처벌뿐만 아니라 심리적 왜곡을 바로잡는 것이 재발 방지의 핵심입니다.
             </p>
           )}
@@ -2834,25 +2834,25 @@ const TreatmentPage = ({ title, slug }: { title: string; slug: string }) => {
     className="bg-white min-h-screen"
   >
     {/* Page Header */}
-    <div className="relative bg-slate-50 py-16 lg:py-32 border-b border-slate-200 overflow-hidden">
+    <div className="relative bg-slate-950 py-16 lg:py-32 border-b border-slate-800 overflow-hidden">
       {heroBg && (
         <div className="absolute inset-0 pointer-events-none">
           <img 
             src={heroBg} 
             alt={`${title} 배경`} 
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover object-center opacity-65"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/75 to-slate-50/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/55 to-slate-950/35" />
         </div>
       )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <Link to="/" className="inline-flex items-center gap-2 text-indigo-600 font-bold mb-8 hover:text-indigo-700 transition-colors">
+        <Link to="/" className="inline-flex items-center gap-2 text-indigo-300 font-bold mb-8 hover:text-indigo-200 transition-colors drop-shadow-sm">
           <ArrowLeft className="w-4 h-4" />
           상담/치료 전체보기
         </Link>
-        <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-6">{title} 프로그램</h1>
-        <p className="text-xl text-slate-500 max-w-2xl leading-relaxed">
+        <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-white mb-6 drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">{title} 프로그램</h1>
+        <p className="text-xl text-slate-100 max-w-2xl leading-relaxed font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
           단순한 억제가 아닌, 행동의 근본 원인을 분석하고 심리적 루프를 해체하는 전문 치료 과정입니다.
         </p>
       </div>
@@ -3550,30 +3550,30 @@ const EducationPage = ({ title, slug }: { title: string; slug: string }) => {
         className="bg-white min-h-screen"
       >
         {/* SEO Optimized Main Title Section */}
-        <div className="relative bg-slate-50 py-24 lg:py-32 border-b border-slate-200 overflow-hidden">
+        <div className="relative bg-slate-950 py-24 lg:py-32 border-b border-slate-800 overflow-hidden">
           <div className="absolute inset-0 pointer-events-none">
             <img 
               src="https://res.cloudinary.com/dxjz9ksjg/image/upload/v1786107152/%EC%84%B1%EB%B2%94%EC%A3%84_%EC%9E%AC%EB%B2%94%EB%B0%A9%EC%A7%80_%EA%B5%90%EC%9C%A1_skedbn.png" 
               alt="성범죄 재범방지 교육 배경" 
-              className="w-full h-full object-cover opacity-20"
+              className="w-full h-full object-cover object-center opacity-65"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-50/85 via-slate-50/75 to-slate-50/90" />
+            <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/45 to-slate-950/70" />
           </div>
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-100 text-sm font-bold mb-8"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900/75 text-indigo-200 border border-indigo-400/40 backdrop-blur-sm text-sm font-bold mb-8 shadow-sm"
             >
-              <ShieldCheck className="w-4 h-4" />
+              <ShieldCheck className="w-4 h-4 text-indigo-300" />
               전문가 칼럼: 성범죄 재범방지 교육의 중요성
             </motion.div>
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-8 tracking-tight leading-[1.25] text-slate-900 max-w-[800px] mx-auto break-keep [text-wrap:balance]">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-8 tracking-tight leading-[1.25] text-white max-w-[800px] mx-auto break-keep [text-wrap:balance] drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">
               대구 성범죄 재범방지 교육이 중요한 이유 : <br className="hidden sm:block" />
-              단순한 절차가 아니라 <span className="text-indigo-600">‘변화의 증거’</span>입니다
+              단순한 절차가 아니라 <span className="text-indigo-300">‘변화의 증거’</span>입니다
             </h1>
-            <p className="text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
               사건 이후의 막막함, 변화를 향한 첫걸음이 당신의 미래를 결정합니다.
             </p>
           </div>
@@ -4585,27 +4585,28 @@ const CoachingPage = () => (
     className="bg-slate-50 min-h-screen"
   >
     {/* Hero Section */}
-    <div className="relative bg-slate-50 py-40 text-slate-900 text-center overflow-hidden border-b border-slate-200">
-      <div className="absolute inset-0 opacity-10">
+    <div className="relative bg-slate-950 py-40 text-white text-center overflow-hidden border-b border-slate-800">
+      <div className="absolute inset-0 pointer-events-none">
         <img 
           src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=1920" 
           alt="Legal Background" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center opacity-65"
           referrerPolicy="no-referrer"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/45 to-slate-950/70" />
       </div>
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-600 text-base font-bold mb-8 shadow-sm"
+          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-slate-900/75 border border-indigo-400/40 backdrop-blur-sm text-indigo-200 text-base font-bold mb-8 shadow-sm"
         >
-          <PenTool className="w-5 h-5" />
+          <PenTool className="w-5 h-5 text-indigo-300" />
           진정성 있는 반성을 위한 전문 가이드
         </motion.div>
-        <h1 className="text-4xl lg:text-6xl font-bold mb-8 tracking-tight">대구 성범죄 반성문 코칭</h1>
-        <p className="text-xl text-slate-500 leading-relaxed">
+        <h1 className="text-4xl lg:text-6xl font-bold mb-8 tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">대구 성범죄 반성문 코칭</h1>
+        <p className="text-xl text-slate-100 leading-relaxed font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
           단순한 사과가 아닌, 책임 인식을 바탕으로 한 진실된 고백을 돕습니다.
         </p>
       </div>
@@ -4702,30 +4703,30 @@ const CollaborationPage = () => (
     className="bg-white min-h-screen"
   >
     {/* 1. Hero Section */}
-    <header className="relative bg-slate-50 py-24 lg:py-32 text-slate-900 overflow-hidden border-b border-slate-200">
+    <header className="relative bg-slate-950 py-24 lg:py-32 text-white overflow-hidden border-b border-slate-800">
       <div className="absolute inset-0 pointer-events-none">
         <img 
           src="https://res.cloudinary.com/dxjz9ksjg/image/upload/v1785746399/f2ff459c6d7d4b51450ed22f0fd0ff29_mxcc8u.png" 
           alt="Lawyer Collaboration Hero" 
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover object-center opacity-65"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-50/90 via-slate-50/75 to-slate-50/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/55 to-slate-950/35" />
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-600 text-sm font-bold mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900/75 border border-indigo-400/40 backdrop-blur-sm text-indigo-200 text-sm font-bold mb-8 shadow-sm"
           >
-            <ShieldCheck className="w-4 h-4" />
+            <ShieldCheck className="w-4 h-4 text-indigo-300" />
             법적 절차를 이해하는 성범죄 사건 전문 심리상담
           </motion.div>
-          <h1 className="text-4xl lg:text-6xl font-bold mb-8 tracking-tight leading-tight">
+          <h1 className="text-4xl lg:text-6xl font-bold mb-8 tracking-tight leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">
             대구 성범죄 변호사 협업 상담 시스템
           </h1>
-          <p className="text-xl text-slate-500 leading-relaxed">
+          <p className="text-xl text-slate-100 leading-relaxed font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
             성범죄 사건은 일반적인 심리 상담과 다르게 수사 절차와 법적 상황이 함께 진행되는 특수한 사건입니다. 본 센터는 사건 상담 경험과 법적 절차에 대한 높은 이해를 바탕으로, 변호사와 협업하는 상담 시스템을 운영하고 있습니다.
           </p>
         </div>
@@ -4934,33 +4935,34 @@ const LegalPage = () => (
     className="bg-slate-50 min-h-screen"
   >
     {/* Hero Section */}
-    <div className="relative bg-slate-50 py-40 text-slate-900 text-center overflow-hidden border-b border-slate-200">
-      <div className="absolute inset-0 opacity-10">
+    <div className="relative bg-slate-950 py-40 text-white text-center overflow-hidden border-b border-slate-800">
+      <div className="absolute inset-0 pointer-events-none">
         <img 
           src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=1920" 
           alt="Legal Background" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center opacity-65"
           referrerPolicy="no-referrer"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/45 to-slate-950/70" />
       </div>
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-600 text-base font-bold mb-8 shadow-sm"
+          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-slate-900/75 border border-indigo-400/40 backdrop-blur-sm text-indigo-200 text-base font-bold mb-8 shadow-sm"
         >
-          <ShieldCheck className="w-5 h-5" />
+          <ShieldCheck className="w-5 h-5 text-indigo-300" />
           성범죄 사건 심리상담 및 양형자료 지원 서비스 안내
         </motion.div>
-        <h1 className="text-4xl lg:text-6xl font-bold mb-8 tracking-tight">대구 성범죄 법원·검찰 제출용 양형자료</h1>
-        <p className="text-xl text-slate-500 leading-relaxed">
+        <h1 className="text-4xl lg:text-6xl font-bold mb-8 tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">대구 성범죄 법원·검찰 제출용 양형자료</h1>
+        <p className="text-xl text-slate-100 leading-relaxed font-medium drop-shadow-[0_1px_6px_rgba(0,0,0,0.65)]">
           심리치료는 당신의 진지한 반성과 재범 방지 의지를 입증하는 객관적인 증거입니다.
         </p>
       </div>
     </div>
 
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 pb-24">
+    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 pb-24">
       {/* Top Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {[

@@ -15,6 +15,7 @@ interface ExpertItem {
   role: string;
   shortDesc: string;
   image: string;
+  imageClassName?: string;
   avatarBg?: string;
   navigateTo?: string;
   sections?: ProfileSection[];
@@ -32,6 +33,7 @@ const LEAD_EXPERTS: ExpertItem[] = [
     shortDesc: '성범죄 상담 경력 25년 이상, 법원 촉탁 상담위원 역임.',
     image:
       'https://res.cloudinary.com/dxjz9ksjg/image/upload/v1774346422/ChatGPT_Image_2026%EB%85%84_3%EC%9B%94_1%EC%9D%BC_%EC%98%A4%ED%9B%84_10_34_52_ydee1z.png',
+    imageClassName: 'object-[51%_21%] scale-[1.8] origin-[51%_47%]',
     avatarBg: 'bg-[#1E3A8A]',
     navigateTo: '/about/profile',
   },
@@ -298,7 +300,7 @@ const ADVISORY_EXPERTS: ExpertItem[] = [
   {
     id: 'ham-jong-soo',
     name: '함종수 교수',
-    role: '철학박사 · 신학박사 · 심리박사 / 미국상담심리치료학회(AACPT) 회장',
+    role: '철학박사 · 신학박사 · 심리학 박사 / 미국상담심리치료학회(AACPT) 회장',
     shortDesc:
       '미국상담심리치료학회(AACPT) 회장, 애리조나 주립대 철학 교수 역임, LA 시장상 수상.',
     image:
@@ -527,7 +529,7 @@ export default function ExpertsSection({ naverPlaceUrl }: ExpertsSectionProps) {
         <img
           src={expert.image}
           alt={expert.name}
-          className="w-full h-full object-cover object-top"
+          className={`w-full h-full object-cover ${expert.imageClassName || 'object-top'}`}
           referrerPolicy="no-referrer"
         />
       </div>
